@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GitDemoApplication {
 
     public void addData(String data){
-        if(data.equals("Java")){
+        if(data.equals(Constant.Data_Type)){
             System.out.println("Wel Come to Java World");
         }
 
