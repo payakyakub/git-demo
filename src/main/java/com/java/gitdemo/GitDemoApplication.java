@@ -13,6 +13,9 @@ public class GitDemoApplication {
 
     }
 
+    public void addedMethod(){
+         System.out.println("New Method Add");
+    }
     public static void main(String[] args) {
         SpringApplication.run(GitDemoApplication.class, args);
         GitDemoApplication gitDemoApplication = new GitDemoApplication();
